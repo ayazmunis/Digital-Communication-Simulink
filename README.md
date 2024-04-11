@@ -12,10 +12,12 @@ This project focuses on simulating digital communication systems using Simulink.
 - Suitable for low-complexity applications.
 
 #### Scatter Plot
-![BPSK Scatter Plot](BPSK_ScatterPlot.png)
+![BPSK Scatter Plot](https://github.com/ayazmunis/Digital-Communication-Simulink/assets/99540621/cff0f8a2-5596-48a2-af86-cb2614c9d457)
+
 
 #### BER vs SNR Curve
-![BPSK BER vs SNR Curve](BPSK_AWGN_BERvsSNR.png)
+![BPSK BER vs SNR Curve](https://github.com/ayazmunis/Digital-Communication-Simulink/assets/99540621/57e416f2-83f0-4908-8f76-be08c302a391)
+
 
 ### QPSK (Quadrature Phase Shift Keying)
 #### Key Features:

@@ -15,7 +15,7 @@ This project focuses on simulating digital communication systems using Simulink.
 ![BPSK Scatter Plot](BPSK_ScatterPlot.png)
 
 #### BER vs SNR Curve
-![BPSK BER vs SNR Curve](path_to_bpsk_ber_vs_snr_curve.png)
+![BPSK BER vs SNR Curve](BPSK_AWGN_BERvsSNR.png)
 
 ### QPSK (Quadrature Phase Shift Keying)
 #### Key Features:

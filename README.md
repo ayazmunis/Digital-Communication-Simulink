@@ -12,7 +12,7 @@ This project focuses on simulating digital communication systems using Simulink.
 - Suitable for low-complexity applications.
 
 #### Scatter Plot
-![BPSK Scatter Plot](Scatter Plots/BPSK_ScatterPlot.png)
+![BPSK Scatter Plot](BPSK_ScatterPlot.png)
 
 #### BER vs SNR Curve
 ![BPSK BER vs SNR Curve](path_to_bpsk_ber_vs_snr_curve.png)

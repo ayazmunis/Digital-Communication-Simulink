@@ -11,7 +11,8 @@ This project focuses on implementing and simulating Binary Phase Shift Keying (B
 - **Performance Analysis:** Conducted performance analysis by evaluating bit error rate (BER) of transmitted signals under varying signal-to-noise ratios (SNR). Theoretical and simulated BER curves were generated for comparison.
 
 ## BPSK
-- **Scatter Plots** 
+- **Scatter Plot**<br>
+Before Noise figure is the plot of symbols at transmitter, and After Noise figure is the plot of symbols at receiver:
 
 - **BERvsSNR Curve** 
 

@@ -1,26 +1,43 @@
-# Digital-Communication-Modulation-Demodulation-Modelling-Simulink
+# Digital Communication Modelling in Simulink
 
 ## Description
-This project focuses on implementing and simulating Binary Phase Shift Keying (BPSK), Quadrature Phase Shift Keying (QPSK) and 16-Quadrature Amplitude Modulation (16-QAM) systems using Simulink. The aim is to demonstrate the functionality and performance of these modulation schemes in digital communication, particularly in the presence of additive white Gaussian noise (AWGN).
+This project focuses on simulating digital communication systems using Simulink. Implemented modulation schemes include Binary Phase Shift Keying (BPSK), Quadrature Phase Shift Keying (QPSK), and 16 Quadrature Amplitude Modulation (16 QAM). Each modulation scheme is simulated to analyze its performance in terms of Bit Error Rate (BER) against Signal-to-Noise Ratio (SNR). The simulations include the usage of AWGN (Additive White Gaussian Noise) channel to represent realistic channel conditions.
 
-## Key Features
-- **Modulation Schemes Implementation:** Utilized Simulink to design and implement BPSK and 16-QAM modulation schemes. Each modulation scheme was developed as a separate Simulink model, incorporating necessary signal processing blocks.
-   
-- **AWGN Channel Simulation:** Simulated signal transmission over AWGN channels using Simulink to mimic real-world communication environments. This enables assessment of system performance under noisy conditions.
+## Modulation Schemes
 
-- **Performance Analysis:** Conducted performance analysis by evaluating bit error rate (BER) of transmitted signals under varying signal-to-noise ratios (SNR). Theoretical and simulated BER curves were generated for comparison.
+### BPSK (Binary Phase Shift Keying)
+#### Key Features:
+- BPSK modulates binary data onto a carrier signal by shifting its phase.
+- Simple to implement and robust against channel impairments.
+- Suitable for low-complexity applications.
 
-## BPSK
-- **Scatter Plot**<br>
-Before Noise figure is the plot of symbols at transmitter, and After Noise figure is the plot of symbols at receiver:
+#### Scatter Plot
+![BPSK Scatter Plot](Scatter Plots/BPSK_ScatterPlot.png)
 
-- **BERvsSNR Curve** 
+#### BER vs SNR Curve
+![BPSK BER vs SNR Curve](path_to_bpsk_ber_vs_snr_curve.png)
 
-## Future Enhancements
-- Integration of additional modulation schemes and channel models for exploring a wider range of communication scenarios.
-- Implementation of advanced signal processing techniques such as error correction coding and channel equalization.
-- Development of a graphical user interface (GUI) for interactive exploration and analysis.
+### QPSK (Quadrature Phase Shift Keying)
+#### Key Features:
+- QPSK modulates data using four phase shifts of the carrier signal.
+- More bandwidth-efficient compared to BPSK.
+- Robust against phase noise and multipath fading.
 
-## Dependencies
-- MATLAB and Simulink
-- Signal Processing Toolbox
+#### Scatter Plot
+![QPSK Scatter Plot](path_to_qpsk_scatter_plot.png)
+
+#### BER vs SNR Curve
+![QPSK BER vs SNR Curve](path_to_qpsk_ber_vs_snr_curve.png)
+
+### 16 QAM (16 Quadrature Amplitude Modulation)
+#### Key Features:
+- 16 QAM modulates data by varying both amplitude and phase of the carrier signal.
+- Higher spectral efficiency compared to BPSK and QPSK.
+- More susceptible to noise and channel distortions.
+
+#### Scatter Plot
+![16 QAM Scatter Plot](path_to_16qam_scatter_plot.png)
+
+#### BER vs SNR Curve
+![16 QAM BER vs SNR Curve](path_to_16qam_ber_vs_snr_curve.png)
+

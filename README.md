@@ -26,10 +26,12 @@ This project focuses on simulating digital communication systems using Simulink.
 - Robust against phase noise and multipath fading.
 
 #### Scatter Plot
-![QPSK Scatter Plot](path_to_qpsk_scatter_plot.png)
+![QPSK Scatter Plot](https://github.com/ayazmunis/Digital-Communication-Simulink/assets/99540621/887e106b-959c-42c8-8953-d6b6e9ec3459)
+)
 
 #### BER vs SNR Curve
-![QPSK BER vs SNR Curve](path_to_qpsk_ber_vs_snr_curve.png)
+![QPSK BER vs SNR Curve](https://github.com/ayazmunis/Digital-Communication-Simulink/assets/99540621/c87a7bbc-59b9-4333-93f7-279ced212369)
+
 
 ### 16 QAM (16 Quadrature Amplitude Modulation)
 #### Key Features:
@@ -38,8 +40,10 @@ This project focuses on simulating digital communication systems using Simulink.
 - More susceptible to noise and channel distortions.
 
 #### Scatter Plot
-![16 QAM Scatter Plot](path_to_16qam_scatter_plot.png)
+![16 QAM Scatter Plot](https://github.com/ayazmunis/Digital-Communication-Simulink/assets/99540621/95047c2d-5bcd-4230-8d5b-582134cd6cbf)
+
 
 #### BER vs SNR Curve
-![16 QAM BER vs SNR Curve](path_to_16qam_ber_vs_snr_curve.png)
+![16 QAM BER vs SNR Curve](https://github.com/ayazmunis/Digital-Communication-Simulink/assets/99540621/13189eeb-5927-4e31-a585-1d77d458145d)
+
 
